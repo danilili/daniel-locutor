@@ -1,0 +1,134 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+h4 {
+    font-size: 18px;
+    text-align: center;
+}
+
+p {
+    font-family: helvetica;
+    font-size: 16px;
+}
+header {
+    background-color: lightgray;
+   
+}
+
+footer {
+    
+}
+
+body {
+    width: auto;
+}
+img {
+    max-width: 90%;
+    max-height: auto;
+    margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    img {
+     width: 32%;
+     float: left;
+    } 
+ }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  .destacado {
+    background-color: gray;
+    color: white;
+  }
+
+  p a {
+      font-style: italic;
+      text-decoration: underline;
+  }
+
+  .twitter {
+      height: 200px;
+      overflow: scroll;
+  }
+
+  #contactame {
+      background-color:lightgray;
+      border-style: dashed;
+      padding: 20px 10px 20px 10px;
+      margin: 20px 10px;
+      align-items: center;
+  }
+
+  #secret1 {
+      display: none;
+  }
+
+  #secret2 {
+      display: none;
+  }
+
+  #secret3 {
+      display: none;
+  }
+
+  .contenedor {
+      display: flex;
+      flex-direction: column;
+      align-items: inherit;
+  } 
+
+  @media screen and (min-width: 120px) and (max-width: 480px) {
+    .contenedor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  .descripción {
+      background-color: #f1f1f1;
+  }
+
+iframe {
+      width: 95%;
+      display: block;
+  }
+
+  /*Media Queries*/
+
+  
+  

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locucion Pro</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="destacado"><a href="#default">Home</a></li>
+                <li><a href="#Conóceme">Conóceme</a></li>
+                <li><a href="#mi-trabajo">Proyectos</a></li>
+                <li><a href="#contactame">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <div class="contenedor" id="Conóceme">
+            <div class="contenedor" id="titulo-seccion">
+                <h1>Grabación Profesional de Voz</h1>
+            </div>
+            <div class="contenedor">
+                <h2>Una voz joven con su propio estudio y toda la cosa</h2>
+                <p>Dale punch a tus proyectos con una voz en off que le de contundencia a tu mensaje, mándame tu texto, yo te lo grabo. ¿No tienes texto? Yo lo redacto <a id="button1">leer más</a></p>
+                <p id="secret1">Una voz en off, aterriza el lenguaje visual de una manera que cualquier audiencia puede comprender, es un recurso económico pero contundente, sin embargo la creatividad necesaria para redactar un buen copy, aunque parezca simple, a veces requiere de una perspectiva distante, un punto de vista que yo, ajeno al proyecto, puedo aportar con frescura</p>
+                <script type="text/javascript">
+                    document.getElementById("button1").onclick = function() {
+              
+                        document.getElementById("secret1").style.display = "block";
+              
+                    }
+
+                </script>    
+                <div class="foto">
+                    <img src="fotos/charly treviño y daniel mendez@0,5x.jpg" alt="en el set de Cocina Practica en Televisa Guadalajara">
+                    <img src="fotos/foto_de_perfil.jpg" alt="conductor Daniel Mendez Aguirre">
+                    <img src="fotos/con la güera y el callado@0,5x.jpg" alt="con la güera y el callado">
+                </div>    
+            </div>    
+        </div>
+        <div class="contenedor" id="mi-trabajo">
+            <div class="titulo-seccion">
+                <h2>Mi Trabajo</h2>
+            </div>
+            <div class="contenedor" class="proyecto">
+                <div class="encabezado">
+                    <h3>Navidad Ekar De Gas</h3>
+                </div>
+                <div class="video-YouTube">
+                    <!--investigar como enlazar videos de youtube-->
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/kQTYIEBC-aU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="descripción">
+                    <h4>Animación con mensaje decembrino para un público de todas las edades</h4>
+                    <p>Para este video me encargué del audio por completo: Dirigí la grabación de la música, hice la locución y redacté el texto.
+                        <a id="button2">Leer más</a> </p>
+                    <p id="secret2">La música original es un elemento de calidad que dota de personalidad y esencia a cualquier video o proyecto audiovisual. En los temas musicales publicitarios, conocidos como jingle, la locucion y la pista musical se mezclan, sintetizando la idea y dándole cadencia a la voz principal</p>    
+                        <script type="text/javascript">
+                            document.getElementById("button2").onclick = function() {
+                      
+                                document.getElementById("secret2").style.display = "block";
+                      
+                            }
+                            
+                        </script>        
+                </div>
+            </div>
+            <div class="contenedor" class="proyecto">
+                <div class="encabezado">
+                    <h3>Promocional tienda</h3>
+                </div>
+                <div class="video-YouTube">
+                    <!--aquí va otro enlace de video de youtube-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QsnA9mX84II" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="descripción">
+                    <h4>Continúan las ofertas en la tienda</h4>
+                    <p>No todo son grandes ocasiones, encontrar lo que caracteriza a una marca en lo cotidiano, es mi especialidad</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="contenedor" id="contactame">
+            <div class="titulo-seccion">
+                <button type="button" id="button3"><h2>Contáctame</h2></button>
+            </div>
+            <div class="contenedor" class="descripción" id="secret3">
+                <h3>¿Tienes una idea que te gustaría grabar?</h3>
+                <p>Por favor ponte en contacto de la manera que te sea más cómoda</p>
+                <p>El precio de los proyectos es desde $1,000 MXN por minuto</p>
+                <div class="contenedor" class="descripción">
+                    <h3>Whatsapp: 3335702682</h3>
+                    <h4>correo: dnl.mendez.a@gmail.com</h4>
+                </div>
+                <script type="text/javascript">
+                    document.getElementById("button3").onclick = function() {
+              
+                        document.getElementById("secret3").style.display = "block";
+              
+                    }
+                    
+                </script> 
+            </div>
+            
+        </div>
+        <footer>
+            <div class="contenedor">
+                <div class="descripción">
+                    <h4>Twitter</h4>
+                    <div class="twitter">
+                    <a class="twitter-timeline" href="https://twitter.com/DanielMndezA?ref_src=twsrc%5Etfw">Tweets by DanielMndezA</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>    
+                <div class="descripción">
+                    <p>Página propiedad de Daniel Méndez. Todos los derechos reservados.</p>
+                    <p>Última actualización: Julio 2022.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    
+</body>
+</html>
